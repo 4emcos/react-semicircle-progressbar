@@ -1,8 +1,17 @@
 {
-  "name": "react-half-circle-progress-bar",
-  "private": true,
-  "version": "0.0.0",
+  "name": "react-semicircle-progressbar",
+  "description": "React component for semicircle progressbar",
+  "author": "4emcos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4emcos/react-semicircle-progressbar"
+  },
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/4emcos/react-semicircle-progressbar",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -15,5 +24,21 @@
     "@vitejs/plugin-react": "^3.1.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Edge versions",
+    "last 2 Safari versions",
+    "last 2 iOS versions",
+    "last 2 ChromeAndroid versions"
+  ],
+  "keywords": [
+    "react",
+    "progressbar",
+    "semicircle",
+    "half progressbar",
+    "half circle",
+    "semi circle progressbar"
+  ]
 }
