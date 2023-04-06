@@ -2,6 +2,8 @@
 
 A semicircle progress bar for React applications.
 
+![alt text](https://raw.githubusercontent.com/4emcos/react-semicircle-progressbar/main/assets/example.jpg)
+
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/) to install react-semicircle-progressbar.
