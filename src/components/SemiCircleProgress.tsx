@@ -1,4 +1,4 @@
-interface ISemiCircleProgress {
+type ISemiCircleProgress = {
   strokeWidth: number;
   strokeLinecap?: "butt" | "round" | "square" | "inherit";
 
@@ -15,7 +15,7 @@ interface ISemiCircleProgress {
     fontWeight: string;
     fill: string;
   };
-}
+};
 
 const SemiCircleProgress = ({
   strokeWidth,

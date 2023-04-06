@@ -7,8 +7,12 @@
     "url": "https://github.com/4emcos/react-semicircle-progressbar"
   },
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.3",
   "type": "module",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "homepage": "https://github.com/4emcos/react-semicircle-progressbar",
   "license": "MIT",
@@ -22,10 +26,14 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/node": "^18.15.11",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "rollup-plugin-typescript-paths": "^1.4.0",
     "tsc": "^2.0.4",
+    "tslib": "^2.5.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
   },
