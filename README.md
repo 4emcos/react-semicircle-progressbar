@@ -48,6 +48,8 @@ export default App;
 | size               | { width: number, height: number }       | The size of the progress bar in pixels                                                             |
 | strokeColor        | string                                  | The color of the progress bar line in CSS                                                           |
 | fontStyle          | { fontSize: string, fontFamily: string, fontWeight: string, fill: string } | The style of the label text |
+|hasBackground       | boolean                                  | The background of the progress bar                                                                |
+|bgStrokeColor       | string                                   | The color of the progress bar background line in CSS                                           |
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
