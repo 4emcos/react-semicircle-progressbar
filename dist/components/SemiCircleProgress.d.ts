@@ -14,6 +14,8 @@ type ISemiCircleProgress = {
         fontWeight: string;
         fill: string;
     };
+    hasBackground?: Boolean;
+    bgStrokeColor?: string;
 };
-declare const SemiCircleProgress: ({ strokeWidth, percentage, strokeColor, size, strokeLinecap, percentageSeperator, fontStyle, }: ISemiCircleProgress) => JSX.Element;
+declare const SemiCircleProgress: ({ strokeWidth, percentage, strokeColor, size, strokeLinecap, percentageSeperator, fontStyle, hasBackground, bgStrokeColor, }: ISemiCircleProgress) => JSX.Element;
 export { SemiCircleProgress };

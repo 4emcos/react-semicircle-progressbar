@@ -7,7 +7,7 @@
     "url": "https://github.com/4emcos/react-semicircle-progressbar"
   },
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.5",
   "type": "module",
   "types": "dist/index.d.ts",
   "files": [
